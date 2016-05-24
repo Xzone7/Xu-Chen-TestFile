@@ -1,0 +1,15 @@
+/Users/cx/Projects/myApp/myApp/obj/iPhoneSimulator/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/cx/Projects/myApp/myApp/obj/iPhoneSimulator/Debug/ibtool/LaunchScreen.nib
+/Users/cx/Projects/myApp/myApp/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+/Users/cx/Projects/myApp/myApp/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/Info.plist
+/Users/cx/Projects/myApp/myApp/obj/iPhoneSimulator/Debug/ibtool/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+/Users/cx/Projects/myApp/myApp/obj/iPhoneSimulator/Debug/ibtool/_BundleResourceWithLogicalName.items
+/Users/cx/Projects/myApp/myApp/obj/iPhoneSimulator/Debug/actool/partial-info.plist
+/Users/cx/Projects/myApp/myApp/obj/iPhoneSimulator/Debug/actool/asset-manifest.plist
+/Users/cx/Projects/myApp/myApp/obj/iPhoneSimulator/Debug/actool/_PartialAppManifest.items
+/Users/cx/Projects/myApp/myApp/obj/iPhoneSimulator/Debug/actool/_BundleResourceWithLogicalName.items
+/Users/cx/Projects/myApp/myApp/obj/iPhoneSimulator/Debug/optimized/
+/Users/cx/Projects/myApp/myApp/bin/iPhoneSimulator/Debug/myApp.exe.mdb
+/Users/cx/Projects/myApp/myApp/bin/iPhoneSimulator/Debug/myApp.exe
+/Users/cx/Projects/myApp/myApp/obj/iPhoneSimulator/Debug/myApp.exe
+/Users/cx/Projects/myApp/myApp/obj/iPhoneSimulator/Debug/myApp.exe.mdb
