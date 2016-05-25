@@ -80,6 +80,8 @@
   </ItemGroup>
   <ItemGroup>
     <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Contents.json" />
+    <ImageAsset Include="Resources\Images.xcassets\lean.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Images.xcassets\music.imageset\Contents.json" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Resources\LaunchScreen.xib" />
@@ -99,4 +101,10 @@
     <Compile Include="TableSource.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+  <ItemGroup>
+    <BundleResource Include="Resources\Images.xcassets\lean.imageset\lean.png" />
+    <BundleResource Include="Resources\Images.xcassets\lean.imageset\leansoft-logo.png" />
+    <BundleResource Include="Resources\Images.xcassets\lean.imageset\impact-mapping.pdf" />
+    <BundleResource Include="Resources\Images.xcassets\music.imageset\lean.png" />
+  </ItemGroup>
 </Project>

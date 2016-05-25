@@ -1,28 +1,31 @@
 ﻿using System;
 using UIKit;
+using System.Collections;
 
 namespace myApp
 {
 	public class TableSource : UITableViewSource
 	{
-		string[] tableItems;
+		ArrayList tableItems;
+
 		string cellIdentifier = "TableCell";
 
 
 
-		public TableSource (string[] items)
+		public TableSource ( ArrayList items)
 		{
 			tableItems = items;
 		}
 
 		public override nint RowsInSection (UITableView tableview, nint section)
 		{
-			return tableItems.Length;
+			return tableItems.Count;
 		}
 
 		public override void RowSelected (UITableView tableView, Foundation.NSIndexPath indexPath)
 		{
-			new UIAlertView ("Alert", "You touched: " + tableItems [indexPath.Row], null, "OK", null).Show ();
+			string[] item = (string[])tableItems [indexPath.Row];
+			new UIAlertView ("Alert", "You touched: " + item[0], null, "OK", null).Show ();
 			tableView.DeselectRow (indexPath, true);
 		}
 
@@ -31,10 +34,17 @@ namespace myApp
 			UITableViewCell cell = tableView.DequeueReusableCell (cellIdentifier);
 			if (cell == null)
 				cell = new UITableViewCell (UITableViewCellStyle.Subtitle, cellIdentifier);
-			cell.TextLabel.Text = tableItems [indexPath.Row];
 
-			if (indexPath.Row > 0)
-				cell.DetailTextLabel.Text = tableItems [indexPath.Row - 1];
+			string[] item = (string[])tableItems [indexPath.Row];
+			cell.TextLabel.Text = item [0];
+			cell.ImageView.Image = UIImage.FromBundle (item[1]);
+
+			if (indexPath.Row > 0) {
+				
+				string[] lastItem = (string[])tableItems [indexPath.Row-1];
+				
+				cell.DetailTextLabel.Text = lastItem [0];
+			}
 			
 			return cell;
 		}

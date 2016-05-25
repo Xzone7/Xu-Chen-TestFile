@@ -2,6 +2,7 @@
 
 using UIKit;
 using System.Collections.Generic;
+using System.Collections;
 
 namespace myApp
 {
@@ -15,7 +16,16 @@ namespace myApp
 		{
 			base.ViewDidLoad ();
 
-			string[] data = new string[]{ "Food", "View", "Music", "Love","Food", "View", "Music", "Love","Food", "View", "Music", "Love" };
+			ArrayList dataList = new ArrayList ();
+			dataList.Add (new string[] { "Food", "lean" });
+			dataList.Add (new string[] { "View", "music" });
+			dataList.Add (new string[] { "Music", "lean" });
+			dataList.Add (new string[] { "Love", "music" });
+
+			string[] data = new string[]{ 
+				"Food", 
+				"View", 
+				"Music", "Love","Food", "View", "Music", "Love","Food", "View", "Music", "Love" };
 
 			// Perform any additional setup after loading the view, typically from a nib.
 
@@ -24,7 +34,7 @@ namespace myApp
 			_table = new UITableView {
 
 				Frame = new CoreGraphics.CGRect (0, 30, View.Bounds.Width, View.Bounds.Height - 30),
-				Source = new TableSource(data)
+				Source = new TableSource(dataList)
 
 			};
 
