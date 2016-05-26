@@ -2,6 +2,7 @@
 
 using UIKit;
 using System.Collections.Generic;
+using System.Collections;
 
 namespace myApp
 {
@@ -15,7 +16,14 @@ namespace myApp
 		{
 			base.ViewDidLoad ();
 
-			string[] data = new string[]{ "Food", "View", "Music", "Love","Food", "View", "Music", "Love","Food", "View", "Music", "Love" };
+			ArrayList data = new ArrayList ();
+			data.Add (new string[]{ "Food", "foodImage", "18 items" });
+			data.Add (new string[]{ "View", "viewImage", "27 items" });
+			data.Add (new string[]{ "Music", "musicImage", "40 items" });
+			data.Add (new string[]{ "Love", "loveImage", "36 items"});
+
+
+				
 
 			// Perform any additional setup after loading the view, typically from a nib.
 

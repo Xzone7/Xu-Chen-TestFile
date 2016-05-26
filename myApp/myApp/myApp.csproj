@@ -80,6 +80,18 @@
   </ItemGroup>
   <ItemGroup>
     <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Contents.json" />
+    <ImageAsset Include="Resources\Images.xcassets\foodImage.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Images.xcassets\foodImage.imageset\food.png" />
+    <ImageAsset Include="Resources\Images.xcassets\viewImage.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Images.xcassets\musicImage.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Images.xcassets\loveImage.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Images.xcassets\loveImage.imageset\love.png" />
+    <ImageAsset Include="Resources\Images.xcassets\musicImage.imageset\music.png" />
+    <ImageAsset Include="Resources\Images.xcassets\viewImage.imageset\view.png" />
+    <ImageAsset Include="Resources\Images.xcassets\foodImage.imageset\food.jpeg" />
+    <ImageAsset Include="Resources\Images.xcassets\loveImage.imageset\love.jpeg" />
+    <ImageAsset Include="Resources\Images.xcassets\musicImage.imageset\music.jpeg" />
+    <ImageAsset Include="Resources\Images.xcassets\viewImage.imageset\view.jpeg" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Resources\LaunchScreen.xib" />

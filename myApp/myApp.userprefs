@@ -1,8 +1,10 @@
 ﻿<Properties StartupItem="myApp/myApp.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone4s.9.3" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone6s.9.3" />
   <MonoDevelop.Ide.Workbench ActiveDocument="myApp/ViewController.cs">
     <Files>
-      <File FileName="myApp/ViewController.cs" Line="13" Column="3" />
+      <File FileName="myApp/ViewController.cs" Line="23" Column="42" />
+      <File FileName="myApp/TableSource.cs" Line="1" Column="1" />
+      <File FileName="myApp/Main.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
